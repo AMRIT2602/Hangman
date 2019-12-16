@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Hangman"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="220.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginTop="27.5dp"
+        android:textSize="@android:dimen/app_icon_size"
+        android:layout_marginLeft="88.5dp" />
+    <Button
+        android:text="Play Game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ChangeButton"
+        android:layout_marginTop="31.0dp" />
+</LinearLayout>
